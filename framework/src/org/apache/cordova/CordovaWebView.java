@@ -292,6 +292,7 @@ public class CordovaWebView extends XWalkView {
             {
                 //TODO: bring it back when it's ready in the XWalk.
                 //setWebContentsDebuggingEnabled(true);
+                enableRemoteDebugging();
             }
         } catch (IllegalArgumentException e) {
             Log.d(TAG, "You have one job! To turn on Remote Web Debugging! YOU HAVE FAILED! ");
